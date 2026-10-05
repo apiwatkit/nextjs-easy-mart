@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* สี primary */
+  --color-primary-25: #faf8f9;
+  --color-primary-50: #fef5fd;
+  --color-primary-600: #b6349a;
+  --color-primary-700: #a02b84;
+  --color-primary-900: #6c2358;
+
+  /* สี ink (DEFAULT กลายเป็นชื่อ --color-ink เฉยๆ) */
+  --color-ink: #0d0c0d;
+  --color-ink-50: #f8f7f8;
+  --color-ink-100: #f0eef0;
+  --color-ink-800: #3e3b3f;
+
+  /* สีเดี่ยว */
+  --color-green25: #f5fbf5;
+  --color-muted: #5f6980;
+  --color-footerHead: #282828;
+
+  /* ฟอนต์ */
+  --font-sans: "Degular Demo", "Figtree", "Inter", system-ui, sans-serif;
+  --font-inter: "Inter", system-ui, sans-serif;
+
+  /* เงา */
+  --shadow-search: 0 2px 80px 0 rgba(0, 0, 0, 0.04);
+}
