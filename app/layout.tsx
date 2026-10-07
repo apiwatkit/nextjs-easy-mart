@@ -8,13 +8,14 @@ export const metadata: Metadata = {
 
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import Providers from "./providers";
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full">
         <Header />
-        {children}
+        <Providers>{children}</Providers>
         <Footer />
       </body>
     </html>
